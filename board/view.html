@@ -10,11 +10,15 @@
 
     <title>Semiprojectv2</title>
     <style>
-/*
-        #title {width: 766px; height: 100px; margin: auto; padding-top: 30px; background: mediumAquaMarine; text-align: center; border-bottom: 2px solid black;}
-        #from {width: 766px; height: 35px; margin: auto; padding-top: 6px; background: lightgreen;}
-        #body {width: 766px; height: 800px; margin: auto; background: lemonchiffon; border-bottom: 2px solid black;}
-*/
+
+        #title {height: 100px; margin: auto; padding-top: 30px; background: mediumAquaMarine; text-align: center; border-bottom: 2px solid black;}
+        #from {height: 35px; margin: auto; padding-top: 6px; background: lightgreen;}
+        #body {height: 800px; margin: auto; background: lemonchiffon; border-bottom: 2px solid black;}
+
+        .tbbg1 {background: lightgreen}
+        .tbbg2 {background: mediumAquaMarine; border-top: 2px solid black;}
+        .tbbg3 {background: lemonchiffon; border-bottom: 2px solid black;}}
+
 
     </style>
   </head>
@@ -28,59 +32,53 @@
                 <button type="button"  class="btn btn-primary">회원가입</button></h1></div>
         </header>
 
-            <nav class = "nav-bar navbar-expand navbar-light bg-light">
+        <nav class = "nav-bar navbar-expand navbar-light bg-light">
                 <ul class="navbar-nav nav-fill w-100">
                     <li class="nav-item"><a href="#" class="nav-link">프로젝트소개</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">회원가입</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">게시판</a></li>
+                    <li class="nav-item active"><a href="#" class="nav-link">게시판</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">자료실</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">관리자</a></li>
                 </ul>
             </nav>
 
-        <div>
-            <p><br></p>
-            <i class="fas fa-comments fa-2x"> 자유 게시판</i>
-        </div>
-
-        <hr>
-
         <div id="main">
+            <div>
+                <p><br></p>
+                <i class="fas fa-comments fa-2x"> 자유 게시판</i>
+                <hr>
+            </div> <!-- 페이지 타이틀-->
 
-
-
-            <div class="row">
-                <div class="col-5 offset-1" >
-                    <button type="button" class="btn btn-light"><i class="fas fa-chevron-left"></i> 이전 게시물</button>
-                    <button type="button" class="btn btn-light"><i class="fas fa-chevron-right"></i> 다음 게시물</button>
-                </div>
-                <div class="col-5 text-right">
-                    <button type="button" class="btn btn-light"><i class="fas fa-plus-circle"> 새글쓰기</i></button>
-                </div>
-            </div>
-
-            <div class="container col-10">
+<!--
+            <div class="container">
                 <div id="title" class="col-10 offset-1 text-center" >
-                    <h3>[날씨] "숨이 턱턱"...전국 곳곳 '폭염경보' </h3>
+                    <h3>Etiam et rhoncus elit. </h3>
                 </div>
-                <div id="from" class="row">
-                    <p class="col-5 offset-1">아시아경제</p>
-                    <p class="text-right col-5">2012.07.28 16:02 / 11</p>
+                <div id="from" class="col-10 row">
+                    <div class="col-5 text-left">
+                        <p>geek</p>
+                    </div>
+                    <div class="col-5 offset-2 text-right">
+                    <p>2021.07.28 16:02 / 11 / 222</p>
+                    </div>
                     <hr>
                 </div>
                 <div id="body" class="col-10">
-                    <p>우는 겨울이 가슴속에 같이 것은 벌레는 별 노루, 듯합니다. 남은 벌써 봄이 아직 계절이 이런 듯합니다. 이름과, 한 토끼, 지나가는 마디씩 거외다.<br>
-                    묻힌 이웃 슬퍼하는 가득 이름과, 하나에 노새, 써 나는 거외다. 오면 마리아 이름과, 된 많은 소녀들의 까닭입니다. 오는 보고, 아이들의 멀듯이, 벌레는 듯합니다. 어머니 노루, 써 책상을 같이 까닭입니다.<br>
-                    이런 멀리 경, 듯합니다. 걱정도 별 나는 속의 다 마디씩 어머님, 가득 패, 있습니다.<br>
-                    슬퍼하는 가난한 잔디가 릴케 나는 멀리 하늘에는 아이들의 까닭이요, 듯합니다. 이름을 쉬이 별 이름과, 흙으로 새겨지는 노새, 있습니다. 청춘이 경, 언덕 때 부끄러운 까닭입니다.<br>
-                    덮어 까닭이요, 이름과, 사랑과 별을 강아지, 한 위에 있습니다. 시와 가을로 새워 별에도 것은 이런 봅니다. 이름과 하나에 릴케 자랑처럼 이름자를 봅니다.<br>
-                    없이 흙으로 풀이 한 아스라히 시인의 봅니다. 별 별이 겨울이 너무나 오는 까닭입니다. 때 이름과, 하나에 거외다.<br>
-                    다 무엇인지 별 경, 헤는 봅니다. 위에 쉬이 시와 계절이 걱정도 듯합니다. 이 별 남은 아직 하늘에는 밤을 어머니, 나는 별에도 봅니다. 새겨지는 그러나 별 봅니다.<br>
-                    다 무엇인지 별 경, 헤는 봅니다. 위에 쉬이 시와 계절이 걱정도 듯합니다. 이 별 남은 아직 하늘에는 밤을 어머니, 나는 별에도 봅니다. 새겨지는 그러나 별 봅니다.<br>
-                    다 무엇인지 별 경, 헤는 봅니다. 위에 쉬이 시와 계절이 걱정도 듯합니다. 이 별 남은 아직 하늘에는 밤을 어머니, 나는 별에도 봅니다. 새겨지는 그러나 별 봅니다.<br>
-                    다 그러나 이름자를 보고, 이름을 별 있습니다. 오는 없이 멀듯이, 시인의 벌레는 하나에 거외다. 오면 겨울이 걱정도 나의 패, 무엇인지 너무나 이름과 때 까닭입니다. 옥 멀리 하나에 까닭입니다.<br>
-                    다 그러나 이름자를 보고, 이름을 별 있습니다. 오는 없이 멀듯이, 시인의 벌레는 하나에 거외다. 오면 겨울이 걱정도 나의 패, 무엇인지 너무나 이름과 때 까닭입니다. 옥 멀리 하나에 까닭입니다.<br>
-                    별들을 이국 우는 봅니다. 하나에 잠, 토끼, 계십니다.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper scelerisque orci et tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc tristique dolor sagittis, auctor lorem nec, tempor diam. In hac habitasse platea dictumst. Fusce eget cursus nibh. Mauris et elit urna. Ut volutpat nulla vestibulum, fermentum tellus ac, congue tortor. Cras non pellentesque orci, vitae condimentum risus. Donec condimentum porta justo vitae porta. Fusce non dolor aliquam, cursus mi eget, consequat turpis. Nunc feugiat, diam quis interdum gravida, arcu lacus lacinia quam, pulvinar suscipit nibh diam et enim. Sed suscipit justo sed ligula posuere iaculis. Pellentesque sagittis, tortor et accumsan sagittis, tortor turpis blandit est, eget dictum est odio non velit. Nunc suscipit condimentum maximus.
+
+Curabitur nec ante rutrum, rutrum nisi non, scelerisque dui. Proin accumsan, lacus et pellentesque mattis, sapien ante vehicula diam, ut semper elit nisi non nibh. Sed pharetra suscipit enim ut volutpat. Ut tempus consequat maximus. Maecenas ut ultrices orci. Donec et risus est. Proin massa diam, placerat sed velit feugiat, dictum pharetra eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur ut libero nec nunc mollis auctor. Donec ut nulla in sem interdum convallis id nec ante. Suspendisse est massa, mollis bibendum ipsum sed, dapibus ullamcorper purus. Morbi quis tellus facilisis, congue tellus eu, ultrices tellus. Suspendisse id ornare tellus. Sed vel lectus eu felis congue ornare non quis nulla. Etiam fermentum risus at ex dictum tempor.
+
+Phasellus malesuada purus congue sem vehicula, ac vestibulum lacus cursus. Morbi mi felis, sollicitudin ac sollicitudin ut, commodo at orci. Nulla dapibus nisl quam, et imperdiet erat accumsan nec. Etiam vehicula elit id libero tempor viverra. Nulla facilisis vehicula lacinia. Praesent ut mauris a sapien venenatis condimentum. Nam ut consequat ex, quis tincidunt est. Vivamus mattis libero vel purus fermentum sodales. Nulla leo urna, pellentesque at ipsum viverra, feugiat hendrerit erat.
+
+Donec interdum mauris nisl, vitae fermentum diam feugiat eu. Donec rhoncus ex efficitur, malesuada justo a, faucibus diam. Maecenas elementum tempor odio. Phasellus tristique urna cursus mattis mollis. Curabitur a imperdiet mi. Sed metus lorem, hendrerit ac sem a, malesuada porttitor nulla. Nam at tortor vel metus maximus dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean ac luctus mi. Nulla eget ipsum aliquam sapien euismod aliquam vel sed augue. Aliquam faucibus risus elit, eu semper dolor accumsan in.
+
+Ut eu sem dignissim, mollis purus et, congue sem. Integer ut volutpat quam, at malesuada magna. Cras vitae fringilla augue. In nunc purus, rhoncus eget sagittis volutpat, aliquam aliquam risus. Etiam tempus ipsum a quam sagittis, a consectetur elit scelerisque. Fusce eget tortor suscipit, venenatis nisi non, consequat dolor. Sed aliquam fringilla augue, ac fermentum orci fermentum nec. Curabitur lacinia luctus sem, venenatis imperdiet augue interdum sit amet. Aenean luctus dictum laoreet. Vestibulum in magna nisi. Nulla diam sem, molestie consequat purus sit amet, rutrum placerat turpis. Etiam condimentum ante ligula, vitae dictum velit tempor nec. Quisque non libero ullamcorper, accumsan mauris quis, faucibus turpis. Donec rhoncus velit elit, sit amet blandit leo ornare sit amet. Sed blandit vulputate molestie.
+
+Nunc elementum molestie sem id iaculis. Nulla consequat, lectus vitae fermentum euismod, neque tellus bibendum libero, ac feugiat enim tortor non libero. Sed turpis risus, porttitor in feugiat ut, tristique a orci. Sed id consequat tortor. Curabitur id commodo elit. Donec tellus felis, pulvinar id quam et, vestibulum tincidunt metus. Quisque hendrerit massa sit amet nunc lacinia pulvinar. Morbi vitae feugiat diam. Etiam venenatis eros arcu, a molestie sapien lobortis in. Donec ac tellus ultricies, fringilla felis id, vulputate neque. Mauris erat lectus, semper eu lorem eget, scelerisque efficitur dui.
+
+Suspendisse nibh felis, lacinia sit amet velit vel, egestas tempus lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur mattis pretium lectus, ut auctor ipsum volutpat sed. Morbi ut tortor a lectus tempus blandit non sed magna. Vivamus ac facilisis erat. Phasellus ligula orci, tempor at luctus eu, pellentesque eget sapien. Sed scelerisque mauris sit amet dui laoreet, nec dapibus tellus gravida. Nunc sollicitudin interdum neque non accumsan. Ut ac porta turpis, vel egestas urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+
+Integer eu mauris neque. Donec eros tellus, porta ut tempor id, sodales auctor magna. Maecenas turpis lectus, semper vitae justo ac, pellentesque tincidunt sapien. Sed nec mi id ex blandit varius. Mauris interdum mollis consequat. Vestibulum eget dolor ut lectus finibus accumsan. Nam nec malesuada eros.</p>
                 </div>
             </div>
 
@@ -89,11 +87,143 @@
                 <button type="button" class="btn btn-danger"><i class="fas fa-times-circle"></i> 다음 게시물</button>
                 <button type="button" class="btn btn-light offset-5"><i class="fas fa-list"></i> 목록으로</button>
             </div>
+-->
+
+            <div>
+                <div>
+                    <div class="form-group row">
+                        <div class="col-5 offset-1" >
+                            <button type="button" class="btn btn-light"><i class="fas fa-chevron-left"></i> 이전 게시물</button>
+                            <button type="button" class="btn btn-light"><i class="fas fa-chevron-right"></i> 다음 게시물</button>
+                        </div>
+                        <div class="col-5 text-right">
+                            <button type="button" class="btn btn-light"><i class="fas fa-plus-circle"> 새글쓰기</i></button>
+                        </div>
+                    </div>
+                </div> <!-- 버튼들-->
+
+                <table class="table col-10 offset-1">
+                    <tr class="tbbg1 text-center">
+                        <th colspan="2"><h2>Sed suscipit id mauris sit amet scelerisque.</h2></th>
+                    </tr>
+                    <tr class="tbbg2">
+                        <td style="width: 50%">geek</td>
+                        <td class="text-right">2021-05.21 11:11:11 / 22 / 33</td>
+                    </tr>
+                    <tr class="tbbg3">
+                        <td colspan="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam leo nibh, condimentum id consectetur id, finibus nec est. Aenean pulvinar nisi quis risus vestibulum, non tincidunt enim porta. Curabitur et justo ex. Sed dictum venenatis odio, ut imperdiet velit consectetur vulputate. Fusce luctus quam fringilla erat sollicitudin, in malesuada leo finibus. Donec elementum mauris iaculis egestas tempor. Integer placerat, leo vel fermentum interdum, diam dui cursus leo, cursus tincidunt purus velit ut diam. Morbi vitae diam vitae metus vulputate tempor at non nibh. Morbi pretium posuere erat, non iaculis eros efficitur a. Etiam et rhoncus elit. Integer maximus elit et blandit sollicitudin. Phasellus at dui eget turpis lacinia aliquet.
+
+Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce pellentesque augue feugiat aliquet sollicitudin. Suspendisse cursus turpis massa, et condimentum tortor euismod at. Aliquam mauris augue, blandit non laoreet in, sodales at tellus. Maecenas iaculis fermentum laoreet. Praesent mollis nec erat in condimentum. Sed nec neque eros. Donec egestas nisi id urna pretium, eget vehicula tellus scelerisque. Vivamus nec justo dapibus justo placerat lacinia quis sit amet tellus. Vestibulum sit amet arcu nec odio venenatis eleifend. Integer eget sem nisi. Sed velit magna, tincidunt a vehicula at, efficitur vitae elit. Etiam ultrices eleifend enim, vel interdum nisi vehicula a. Nam quis semper lacus. Proin sodales erat massa.
+
+Pellentesque convallis efficitur nunc ac vulputate. Vestibulum non lacus vitae arcu sagittis dignissim sit amet vitae quam. Vivamus tincidunt mauris felis, vel finibus ligula tincidunt non. Sed lobortis elit sem, vitae ultrices risus consequat in. Duis placerat mollis augue, sit amet rhoncus est. Etiam dapibus lobortis quam, ac commodo libero cursus convallis. Nulla in consequat velit, venenatis fringilla metus. Vestibulum a ligula ac dui aliquet rutrum et at ex.
+
+Fusce finibus libero ut ante faucibus, at dapibus augue scelerisque. Morbi commodo finibus est, ut porttitor velit laoreet eget. Nam ut viverra lectus. Nunc condimentum at neque vitae ultrices. Sed non molestie est, a auctor eros. Mauris rutrum iaculis lacus. Vivamus viverra posuere tellus non pulvinar. Vivamus eu sagittis justo. Curabitur at quam non erat commodo pellentesque nec eget ipsum.
+
+Vestibulum imperdiet nisl ut odio faucibus luctus. Nam sit amet nulla varius, facilisis nulla vel, fermentum risus. Etiam libero purus, dictum non malesuada quis, imperdiet ac diam. Cras id mollis velit, ac tincidunt tortor. Curabitur sed sodales est, non semper magna. Curabitur lacinia ultrices malesuada. Aenean tincidunt nec turpis at faucibus.
+
+Proin pulvinar risus purus, et suscipit augue tincidunt id. Nunc tortor orci, egestas nec maximus eu, euismod ac ante. Ut vel odio congue, ornare nunc id, maximus metus. Vestibulum pellentesque cursus vehicula. Nulla pellentesque pulvinar mauris. Curabitur sit amet ante mi. Proin sodales ipsum ut consequat sollicitudin. Phasellus tellus elit, congue nec velit in, scelerisque consectetur ante.
+
+Maecenas a vestibulum odio. Vestibulum efficitur blandit dignissim. Pellentesque vulputate nulla eu finibus placerat. Sed eget nulla eget nisi ornare semper. Sed varius tempus sodales. Phasellus imperdiet felis iaculis condimentum fringilla. Donec viverra enim sed magna aliquam tincidunt. Etiam mollis arcu et feugiat consequat. Mauris vel arcu nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+Cras faucibus, augue at hendrerit iaculis, enim lectus ultrices neque, sit amet faucibus odio lorem vel quam. Sed nulla diam, vehicula ut feugiat quis, dapibus quis neque. In vestibulum libero ac diam pretium efficitur. Nunc malesuada ex ut nibh tempus, sit amet tincidunt risus dictum. Donec eleifend, odio quis efficitur sagittis, ante neque eleifend risus, ac auctor metus justo vel lectus. Vivamus eu facilisis lacus. Nam ante ex, finibus luctus venenatis eget, aliquet ut tortor. Praesent blandit egestas arcu eu imperdiet. Sed a elit urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam ornare odio eu lacus faucibus, ut ultricies lacus imperdiet. Ut fringilla lectus metus, et euismod purus iaculis quis. In suscipit in mi luctus iaculis. Mauris vitae nulla volutpat, volutpat purus nec, interdum erat. Sed libero risus, fermentum ac lorem id, ullamcorper faucibus tellus.</td>
+                    </tr>
+                </table> <!-- 본문-->
+
+                <div>
+                <div class="row">
+                    <div class="col-5 offset-1" >
+                        <button type="button" class="btn btn-warning"><i class="fas fa-edit"></i> 수정하기</button>
+                        <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i> 삭제하기</button>
+                    </div>
+                    <div class="col-5 text-right">
+                        <button type="button" class="btn btn-light"><i class="fas fa-list"> 목록으로</i></button>
+                    </div>
+                </div>
+                <div class="row"></div>
+                <div class="row"></div>
+                <p></p>
+                </div><!-- 버튼들-->
+            </div> <!-- 본문들-->
+
+            <div class="replies">
+                <div class="col-10 offset-1" style="border-top: 2px solid black; border-bottom: 2px solid black">
+                    <div>
+                        <p></p>
+                        <i class="fas fa-comments fa-2x">나도 한마디</i>
+                        <hr>
+                    </div>
+                    <p></p>
+                    <div class="row">
+                        <div class="col-3"><h6>geek</h6></div>
+                        <div class="col-9">
+                            <div class="row">
+                                <p class="col" style="background: gold">2021-05-21 14:43:49</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse suscipit nunc volutpat condimentum tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            <div class="row" style="background: turquoise">
+                                <h5 class="col">geek2</h5>
+                                <p class="col text-right">2021-05-21 14:59:43</p>
+                            </div>
+                            <p>Phasellus sit amet dui ex.</p>
+                        </div>
+                    </div> <!-- 댓글1-->
+                    <hr>
+                    <div class="row">
+                        <div class="col-3"><h6>geek</h6></div>
+                        <div class="col-9">
+                            <div class="row">
+                                <p class="col" style="background: gold">2021-05-21 14:43:49</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse suscipit nunc volutpat condimentum tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        </div>
+                    </div> <!-- 댓글2-->
+                    <hr>
+                    <div class="row">
+                        <div class="col-3"><h6>geek</h6></div>
+                        <div class="col-9">
+                            <div class="row">
+                                <p class="col" style="background: gold">2021-05-21 14:43:49</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse suscipit nunc volutpat condimentum tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        </div>
+                    </div> <!-- 댓글3-->
+                    <hr>
+                    <div class="row">
+                        <div class="col-3"><h6>geek</h6></div>
+                        <div class="col-9">
+                            <div class="row">
+                                <p class="col" style="background: gold">2021-05-21 14:43:49</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse suscipit nunc volutpat condimentum tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        </div>
+                    </div> <!-- 댓글4-->
+                    <p></p>
+                </div> <!-- 댓글 목록-->
+
+                <div class="row">
+                    <form name="replyfrm" id="replyfrm" class="card card-body bg-light col-10 offset-1">
+                        <div class="form-group row form-inline justify-content-center">
+                            <label for="reply" class="text-success">작성자</label>
+                            &nbsp;&nbsp;&nbsp;
+                            <textarea type="text" name="reply" id="reply" rows="5" class="form-control col-8"></textarea>
+                            &nbsp;&nbsp;&nbsp;
+                            <button type="button" class="btn btn-dark form-control"><i class="fas fa-comment-dots"></i>&nbsp;댓글쓰기</button>
+                        </div>
+                    </form>
+                </div> <!-- 댓글 작성창-->
+            </div> <!-- 댓글-->
+
+
 
 
         </div>
 
 
+        <footer>
+            <div class= "card card-body bg-light text-right" id="usefrm">
+            <h6> Copyright &copy; Lorem Ipsum 2013. Powered by geek. All Rights Reserved.</h6>
+            </div>
+        </footer>
 
     </div>
 
